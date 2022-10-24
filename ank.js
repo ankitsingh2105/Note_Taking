@@ -22,11 +22,11 @@ button.addEventListener("click", () => {
 
 function showNotes() {
     let ans='';
+    let index=0 ; 
     notesarray.forEach((e) => {
-        if(e!==undefined){
+        index++;
         ans +=
-            `<div>${e}</div> <br/>`
-        }
+            `<div>${index}. ${e}</div> <br/>`
     })
     info.innerHTML = ans;
 }

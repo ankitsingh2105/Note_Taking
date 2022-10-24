@@ -1,10 +1,19 @@
 body{
     background-color: black;
     color: white;
+    color: gold;
 }
 .align{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+button{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding:5px;
+    color: deeppink;
+    margin-bottom: 20px;
 }
