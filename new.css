@@ -9,6 +9,10 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+.info{
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+}
 button{
     background-color: black;
     border: 2px solid white;
@@ -21,4 +25,15 @@ textarea{
     padding: 12px;
     color: darkorange;
     background-color: rgb(100, 95, 89);
+}
+.ank{
+    margin-top: 23px;
+    border: 3px solid white;
+    padding :12px;
+    margin: 5px;
+    border-radius: 9px;
+}
+.Delete{
+    margin-top: 20px;
+    margin-bottom: -5px;
 }
