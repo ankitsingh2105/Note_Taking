@@ -2,7 +2,11 @@
 let button = document.querySelector('.add');
 let text = document.querySelector('.text');
 let info = document.querySelector('.info');
-
+let delete1 = document.querySelector('.delete');
+delete1.addEventListener("click" , function(){
+    localStorage.clear();
+    info.innerHTML= "";
+})
 let notesarray = [];
 let notes = localStorage.getItem("notes");
 if (notes != null) {
@@ -18,6 +22,7 @@ button.addEventListener("click", () => {
         console.log(notesarray);
         showNotes();
     }
+    text.value="";
 });
 
 function showNotes() {

@@ -17,3 +17,8 @@ button{
     color: deeppink;
     margin-bottom: 20px;
 }
+textarea{
+    padding: 12px;
+    color: darkorange;
+    background-color: rgb(100, 95, 89);
+}
